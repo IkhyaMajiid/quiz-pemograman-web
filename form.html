@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+</head>
+<body>
+    <h2><center>Quiz Pemrogaman web</center></h2>
+    <h2><center>
+            <a href="list.html">List Jurusan</a>
+            <a href="index.html">Index</a>
+            <a href="form.html">Form</a>
+            <a href="tabel.html">Tabel</a>
+            <a href="about.html">About</a>
+        
+    </center></h2>
+    <center>
+        <h2>Rental Mobil</h2>
+        <form action="proses.php" method="post">
+            <table width="400">
+                <tr>
+                    <td>No Identitas</td>
+                    <td><input type="text" name="KTP"></td>
+                </tr>
+                <tr>
+                    <td>NO Hp</td>
+                    <td><input type="text" name="NoHp"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" name="Email"></td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td><input type="text" name="Alamat"></td>
+                </tr>
+                <tr>
+                    <td><label>Jenis Mobil</label></td>
+                    <td>
+                        <select name="Jenis Mobil">
+                            <option value="Fortuner">Fortuner</option>
+                            <option value="L300">L300</option>
+                            <option value="Pajero">Pajero</option>
+                            <option value="Innova">Innova</option>
+                            <option value="Innova Reborn">Innova Reborn</option>
+                            <option value="Kijang Kapsul">Kijang Kapsul</option>
+                            <option value="Panther">Panther</option>
+                            <option value="Mobil Kuda">Mobil Kuda</option>
+                            <option value="Fuso">Fuso</option>
+                            <option value="Truck Tambang">Truck Tambang</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Jenis Sewa</label></td>
+                    <td>
+                        <div>
+                            <input type="radio" id="Lepas Kunci" name="Lepas Kunci" value="Lepas Kunci">
+                            <label for="Lepas_Kunci">Lepas Kunci</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Dengan Supir" name="DenganSupir" value="Dengan Supir">
+                            <label for="Lepas_kunci">Lepas Kunci</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Tanggal Sewa</label></td>
+                    <td>
+                        <input type="date" name="Tanggal"/> s/d 
+                        <input type="date" name="Tanggal Sewa"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="save" value="submit"/>
+                        <input type="Reset" name="Btnbatal" value="Batal">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>   
+</body>
+</html>
